@@ -1,20 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./styles.css" />
-  </head>
-  <body> 
-          <section id="home" class="flex height-fix">
-        <div id="pt" class="canvas"></div>
-        <div class="flex">
-          <div class="text">
-            Hello, I'm <span class="highlight">Steve Clark</span>.
-            <br />
-            I'm a student at DEVCODE Camp.
-          </div>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="stylesheet.css" rel="stylesheet">
+	<link href=
+	"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel=
+	"stylesheet">
+	<link href=
+	"https://fonts.googleapis.com/css?family=Archivo+Narrow|Crimson+Text|Julius+Sans+One"
+	rel="stylesheet">
+	<script src="https://use.fontawesome.com/a9c503eadc.js">
+	</script>
+	<title>Steve Clark</title>
+</head>
+<body>
+	<div class="nav" id="home">
+		<ul>
+			<li class="home">
+				<a href="#home">Home</a>
+			</li>
+			<li class="about">
+				<a href="#about">About</a>
+			</li>
+			<li class="projects">
+				<a href="#projects">Projects</a>
+			</li>
+			<li class="contact">
+				<a href="#contact">Contact</a>
+			</li>
+		</ul>
+	</div>
+	<div class="container">
+		<div class="jumbotron" id="about">
+			<h1>Steve Clark</h1>
+			<p class="lead">Aspiring web developer.</p>
+			<hr class="my-4">
+			<p>Hello World! My name is Steve and I'm a 13 year Military Veteran. 
+            I work for the Illinois Veterans Home in Quincy IL. Currently I am going to school at
+            Devcode camp leraning how to become a software developer. To learn more about me click 
+            on one of the links below.</p>
+			<ul class="buttons">
+				<li class="btn btn-outline-primary">
+					<i aria-hidden="true" class="fa fa-github"></i> <a href=
+					"https://github.com/steveaclark82">GitHub</a>
+				</li>
+				<li class="btn btn-outline-primary">
+					<i aria-hidden="true" class="fa fa-linkedin"></i> <a href=
+					"https://www.linkedin.com/in/SteveClark/">Linkedin</a>
+				</li>
+			</ul>
+		</div>
+        <div class="row" id="About">
+			<div class="col-xs-12 col-md-3">
+					<h2>"About me"<br>
+				</div>
+				<p>I am a 13 year Military Veteran. I spent 6 years in the United States Air force,
+                I also spent 7 years in the United States Army. My time in the Air Force I worked as a 
+                Security Forces Journeyman. My time in the Army I worked as a Motor Transportation Sergeant
+                and did 2 tours to Iraq. I am married and a father of three kids, 2 boys, and 1 girl. I have
+                several different hobbies. The newst one that I just started doing is collecting gold and silver
+                bars.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-3">
+				<a class="thumbnail" href="#"><img alt="..." src=
+                https://www.facebook.com/photo/?fbid=1450445239308&set=a.1450444839298
+			</div>
+            <div class="col-xs-12 col-md-9">
+				<div class="row" id="Projects">
+					<h2>Projects</h2>
+				</div>
+				<p>You can check out all of my Projects that I have been working on at my
+                GitHub account. https://github.com/steveaclark82</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-9">
+				<div class="Contact">
+					</h1>Contact</>
+				</div>
+				<p>steve.a.clark48@gmail.com
+                   cell# 217-316-9368</p>
+			</div>
+		</div>
+		<div class="contactform" id="contactform">
+		<div class="page-header" style="text-align: center;">
+					<h1>Get in touch<small> Fill out the form below and I'll get back to you shortly.</small></h1>
+				</div>
+			<form action="/action_page.php">
+				<label for="fname">First Name</label> <input id="fname" name="firstname"
+				placeholder="Your name.." type="text"> 
+				<label for="email">Email</label>
+				<input id="email" name="email" placeholder="Your email.." type="text"> 
+				<label for="message">Your message</label>
+     			 <textarea id="message" name="message" placeholder="Type your message here...." tabindex="5" required></textarea>
 
-          
-  </body>
+				</select> <input type="submit" value="Get in touch">
+			</form>
+		</div>
+	</div>
+</body>
 </html>
