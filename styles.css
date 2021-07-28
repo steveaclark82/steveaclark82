@@ -1,0 +1,23 @@
+h1 {
+  color: tomato;
+  text-align: center;
+}
+
+h2 {
+  color: teal;
+  text-align: center;
+}
+
+p {
+  padding: 20px;
+  margin: 50px;
+}
+
+#bottom {
+  text-align: center;
+}
+
+.link-align {
+  text-align: center;
+  display: block;
+}
